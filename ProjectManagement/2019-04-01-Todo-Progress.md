@@ -11,6 +11,7 @@ site : https://github.com/keithito/tacotron
 * anaconda (w/o vscode)
 ### Test process 
 * [blog/python/2019-04-01-tacotron.md](https://github.com/srshin/blog/blob/master/python/2019-04-01-tacotron.md)
-* [blog/python/2019-04-01-tacotron.md2](https://github.com/srshin/blog/blob/master/python/2019-04-01-tacotron2.md)
+* [blog/python/2019-04-01-tacotron2.md](https://github.com/srshin/blog/blob/master/python/2019-04-01-tacotron2.md)
+* [blog/python/2019-04-01-tacotron3.md](https://github.com/srshin/blog/blob/master/python/2019-04-01-tacotron3-diagram.md)
 ## test in local computer with GPU
 * assigned to : 이남기 4/1/2019
