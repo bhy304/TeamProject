@@ -5,7 +5,8 @@
   1-1. Git fork and clone [tacotron](https://github.com/keithito/tacotron)
 
   1-2. python 3.6 버전으로 가상환경 구축  
-			conda create --name "tacotron" python=3.6
+	
+	conda create --name "tacotron" python=3.6
      	activate tacotron
 
   1-3. pip install tensorflow==1.3.0
@@ -42,18 +43,22 @@
 
   ※ FileNotFoundError : No such file or directory 에러 발생 시:
   
-	- process.py : os.path.expanduser 경로 수정!
-    def main():
-      parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
+- process.py : os.path.expanduser 경로 수정!
+    
+    	def main():
+      	parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
 
-  - train.py : os.path.expanduser 경로 수정!
-    def main():
-      parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
+- train.py : os.path.expanduser 경로 수정!
+    
+    	def main():
+      	parser.add_argument('--base_dir', default=os.path.expanduser('**/git/tacotron**'))
 
 4. Train a model
-    python train.py
+    
+    	python train.py
     
 # 5. Monitor with Tensorboard (optional)
-	5-1. tensorboard --logdir /git/tacotron/logs-tacotron ※ logdir 경로 주의!!!!
+	
+5-1. tensorboard --logdir /git/tacotron/logs-tacotron ※ logdir 경로 주의!!!!
   
-  5-2. http://desktop-eh6ita6:6006/ 접속하면 모니터링 가능! 
+5-2. http://desktop-eh6ita6:6006/ 접속하면 모니터링 가능! 
