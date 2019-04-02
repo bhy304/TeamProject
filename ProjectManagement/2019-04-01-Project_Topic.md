@@ -2,6 +2,8 @@
 ### Date : 2019-04-01
 
 ### 주제후보 
+* 어린이집 / 초등학교 통폐합
+* 자연어처리 BERT
 * 공모전에서 주제 찾기 
 * 서울시 공공자전거와 자전거도로 분포에 따른 교통 사고 분석  
 https://bigdata.seoul.go.kr/noti/selectNoti.do?r_id=P440&bbs_seq=202&sch_type=&sch_text=&currentPage=2
